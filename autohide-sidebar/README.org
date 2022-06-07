@@ -1,0 +1,14 @@
+* Autohide Sidebar
+Copy the code below to =CUSTOM CSS= under =Appearance= in =Settings=
+#+BEGIN_SRC css
+.sc-gTgzoy{
+  width: 0px;
+  transition: linear 0.1s;
+}
+.SidebarBase-sc-1dma6vq-0:hover .sc-gTgzoy{
+  width: 56px;
+  transition: linear 0.1s;
+}
+#+END_SRC
+
+*NOTE:* You can change the transition time  for slower or faster transition or comment out =transition: linear 0.1s;= for quick transition.
