@@ -1,0 +1,13 @@
+* RGB Sidebar(Downwards)
+Copy the code below to =CUSTOM CSS= under =Appearance= in =Settings=
+#+BEGIN_SRC css
+.sc-gTgzoy{
+  background-image: url(https://raw.githubusercontent.com/Llamach/Revolt-Chat-custom-css/main/rgb-downstream/sidebar-animation.svg);
+}
+.sc-laRQdt{
+  display: none !important;
+}
+#+END_SRC
+
+*NOTE*: The animation is an edited version of [[https://github.com/PROxZIMA/Sweet-Pop/blob/master/icons/animation.svg][animation.svg]]
+/Special thanks to [[https://github.com/PROxZIMA][PROxZIMA]] for [[https://github.com/PROxZIMA/Sweet-Pop/blob/master/icons/animation.svg][animation.svg]]/
