@@ -1,2 +1,0 @@
-* Revolt-Chat-custom-css
-This is a collection of app.revolt.chat custom css.
