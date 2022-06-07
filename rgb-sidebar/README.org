@@ -1,0 +1,20 @@
+* Autohide Sidebar
+Copy the code below to =CUSTOM CSS= under =Appearance= in =Settings=
+#+BEGIN_SRC css
+.sc-gTgzoy{
+  background-color: #ff6961;
+  animation: rgb 2s ease infinite;
+}
+@keyframes rgb {
+  0%   {background-color:#bf616a;}
+  25%  {background-color:#d08770;}
+  50%  {background-color:#ebcb8b;}
+  75%  {background-color:#a3be8c;}
+  100% {background-color:#bf616a;}
+}
+.sc-laRQdt{
+  display: none !important;
+}
+#+END_SRC
+
+*NOTE:* You can change the animation time  for slower or faster transition.
