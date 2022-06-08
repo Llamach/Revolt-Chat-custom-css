@@ -38,6 +38,9 @@ div.SidebarBase-sc-1dma6vq-0{
 #app:hover .Channel__ChannelMain-sc-k5myot-0 {
     background: unset;
 }
+.kzdWLr {
+	display: none;
+}
 #+END_SRC
 
 *NOTE:* Zen-mode gets activated when the mouse cursor leaves revolt.
