@@ -1,0 +1,43 @@
+* Zen-mode
+Copy the code below to =CUSTOM CSS= under =Appearance= in =Settings=
+#+BEGIN_SRC css
+div.SidebarBase-sc-1dma6vq-0{
+  width: 0px;
+  transition: linear 0.1s;
+}
+.Header-sc-39hpd7-0{
+  top: -100px;
+  transition: linear 0.1s;
+}
+.MessageArea__Area-sc-1q4cka6-0{
+  margin-left: 10%;
+}
+#app:hover .Header-sc-39hpd7-0{
+  top: 0px;
+  transition: linear 0.1s;
+}
+#app:hover div.SidebarBase-sc-1dma6vq-0 {
+  width: 20%;
+  transition: linear 0.1s;
+}
+#app:hover .MessageArea__Area-sc-1q4cka6-0{
+  margin-left: 0px;
+}
+.Channel__ChannelMain-sc-k5myot-0 {
+    background: linear-gradient(270deg, #2d0c1d, #291830, #1e162a, #231b35, #23223d, #1e3447, #142135, #161b2e, #13152a);
+    background-size: 1800% 1800%;
+
+    animation: AnimationName 6s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 66%}
+    50%{background-position:100% 35%}
+    100%{background-position:0% 66%}
+}
+#app:hover .Channel__ChannelMain-sc-k5myot-0 {
+    background: unset;
+}
+#+END_SRC
+
+*NOTE:* Zen-mode gets activated when the mouse cursor leaves revolt.
