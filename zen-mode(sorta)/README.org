@@ -38,8 +38,8 @@ div.SidebarBase-sc-1dma6vq-0{
 #app:hover .Channel__ChannelMain-sc-k5myot-0 {
     background: unset;
 }
-.kzdWLr {
-	display: none;
+.sc-laRQdt{
+  display: none !important;
 }
 #+END_SRC
 
