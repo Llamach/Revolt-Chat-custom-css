@@ -9,6 +9,9 @@ Copy the code below to =CUSTOM CSS= under =Appearance= in =Settings=
   width: 56px;
   transition: linear 0.1s;
 }
+.kzdWLr {
+	display: none;
+}
 #+END_SRC
 
 *NOTE:* You can change the transition time  for slower or faster transition or comment out =transition: linear 0.1s;= for quick transition.
