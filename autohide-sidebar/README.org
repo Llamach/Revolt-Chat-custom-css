@@ -9,8 +9,8 @@ Copy the code below to =CUSTOM CSS= under =Appearance= in =Settings=
   width: 56px;
   transition: linear 0.1s;
 }
-.kzdWLr {
-	display: none;
+.sc-laRQdt{
+  display: none !important;
 }
 #+END_SRC
 
