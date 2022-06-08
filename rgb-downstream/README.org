@@ -11,3 +11,21 @@ Copy the code below to =CUSTOM CSS= under =Appearance= in =Settings=
 
 *NOTE*: The animation is an edited version of [[https://github.com/PROxZIMA/Sweet-Pop/blob/master/icons/animation.svg][animation.svg]]
 /Special thanks to [[https://github.com/PROxZIMA][PROxZIMA]] for [[https://github.com/PROxZIMA/Sweet-Pop/blob/master/icons/animation.svg][animation.svg]]/
+
+*Alternative Version*
+#+BEGIN_SRC css
+.sc-gTgzoy {
+  animation: animateBg 10s linear infinite;
+  background-image: linear-gradient(0deg,#cf5c5c,#c19b4a,#def2a0,#c6ee4a,#42eca6,#64b3d9,#208ea2,#498ada,#5b73df,#897ed3,#cf5c5c,#c19b4a);
+  background-size: 100% 1100%;
+  height: 100vh;
+  width: 100vw;
+}
+@keyframes animateBg {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 0% 100%; }
+}
+.sc-laRQdt{
+  display: none !important;
+}
+#+END_SRC
